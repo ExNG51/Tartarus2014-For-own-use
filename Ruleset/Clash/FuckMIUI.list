@@ -1,0 +1,8 @@
+# MIUI 安装检查
+DOMAIN,api.installer.xiaomi.com
+
+#反诈
+DOMAIN,flash.sec.miui.com
+
+#快应用
+DOMAIN,api.hybrid.xiaomi.com
