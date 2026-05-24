@@ -2,15 +2,3 @@
 
 # MIUI 安装检查
 DOMAIN,api.installer.xiaomi.com
-
-#浏览器 热点下滑等
-DOMAIN,o2o.api.xiaomi.com  # O2O 服务接口。
-DOMAIN,security.browser.miui.com  # 表面是安全，实则是用于核验下载文件、网页链接的云端服务。禁用后，部分自带的安全扫描失效，但这功能通常是“上传链接去云端比对”，隐私敏感的用户建议禁用。
-DOMAIN,hot.browser.miui.com  # 浏览器首页“热点资讯”
-DOMAIN,r.browser.miui.com  # 用户行为分析与监控
-DOMAIN,hd.browser.miui.com  # 各种活动、推广页的推送
-DOMAIN,c3-cache.browser.miui.com  # 用于缓存并加载页面内的各种推荐位和动态资源。
-DOMAIN,qsb.browser.miui.com  # Quick Search Box，负责浏览器地址栏的“搜索建议”功能。禁用后，在地址栏输入时，不会弹出联想词或热搜推荐，只会显示你的历史记录或书签。
-DOMAIN,sentry.d.xiaomi.net  # 用户行为分析与监控
-DOMAIN,global-search.browser.miui.com  # 全局搜索服务的接口，负责浏览器内的搜索加持。禁用后，部分搜索结果的排版或精选摘要可能消失（回归最基础的搜索引擎页面）。
-DOMAIN,global.search.xiaomi.net  # 全局搜索服务的接口，负责浏览器内的搜索加持。禁用后，部分搜索结果的排版或精选摘要可能消失（回归最基础的搜索引擎页面）。
